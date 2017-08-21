@@ -12,7 +12,9 @@ public class HelloWorldTest {
 
 	@Test
 	public void testByJettyWithoutWebContainer() {
+		// 发布服务
 		Endpoint.publish(ADDRESS, new HelloWorldImpl());
+		// 客户端调用
 		JaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();
 		factory.setServiceClass(HelloWorld.class);
 		factory.setAddress(ADDRESS);
