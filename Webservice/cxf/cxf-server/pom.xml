@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.study</groupId>
+		<artifactId>cxf</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>cxf-server</artifactId>
+	<name>cxf-server</name>
+
+	<dependencies>
+		<!-- 非web容器下，借助jetty发布webservice，仅限测试时使用 -->
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-transports-http-jetty</artifactId>
+            <version>${version.cxf}</version>
+        </dependency>
+	</dependencies>
+</project>
