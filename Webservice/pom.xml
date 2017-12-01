@@ -13,7 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<version.cxf>3.2.0</version.cxf>
-		<version.junit>4.10</version.junit>
+		<version.junit>4.12</version.junit>
 		<version.spring>4.3.2.RELEASE</version.spring>
 		<version.slf4j-api>1.7.21</version.slf4j-api>
 		<version.slf4j-log4j>1.7.21</version.slf4j-log4j>

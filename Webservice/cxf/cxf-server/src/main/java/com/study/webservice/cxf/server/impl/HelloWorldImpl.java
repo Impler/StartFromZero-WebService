@@ -9,7 +9,7 @@ public class HelloWorldImpl implements HelloWorld {
 
     @Override
     public String sayHello(String name) {
-        System.out.println("receive>>" + name);
+        System.out.println("******** server receive>>" + name);
         return "hello, " + name;
     }
 
